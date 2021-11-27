@@ -11,7 +11,6 @@ export default createGlobalStyle`
     }
     html {
         min-height: 100%;
-        background: ${colors.body.background};
     }
     *, button, input {
         border: 0;
