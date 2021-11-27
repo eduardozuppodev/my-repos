@@ -31,6 +31,17 @@ Em seguida, inicie o projeto.
 yarn start
 ```
 
+## 🔖 Layout
+ <p align="center">Desktop - Mobile<p/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/69389822/143722405-1c923d1a-ad6d-46ba-8cc4-2b21b62aefd2.png" width="100%">
+</p>
+    <p align="center">
+  <img src="https://user-images.githubusercontent.com/69389822/143722414-71a54b86-0d18-4a34-a758-ede6d026b0d1.png" width="37.2%">
+</p>
+
+
+
 <div align="center">
-  <small>Desenvolvido por Eduardo Zuppo - Agosto/2021</small>
+  <small>Desenvolvido por Eduardo Zuppo - Novembro/2021</small>
 </div>
