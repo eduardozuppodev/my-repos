@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header, Card } from '../../components';
-import { Container, Repos } from './styles';
+import { Container, Repos, Credits } from './styles';
 
 const Home: React.FC = () => {
   return (
@@ -16,6 +16,7 @@ const Home: React.FC = () => {
         <Card />
         <Card />
         <Card />
+        <Credits>Desenvolvido por Eduardo Zuppo</Credits>
       </Repos>
     </Container>
   );

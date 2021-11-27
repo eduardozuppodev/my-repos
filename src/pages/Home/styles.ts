@@ -16,3 +16,9 @@ export const Repos = styled.div`
   margin-top: 30px;
   flex-direction: column;
 `;
+
+export const Credits = styled.span`
+  font-size: 10px;
+  padding: 10px 0;
+  color: #b6b6b6;
+`;
