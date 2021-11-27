@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors } from '../../styles/colors';
+import { colors } from '../../themes';
 import { GitHub, Favorite } from '@material-ui/icons';
 
 export const Container = styled.div`
