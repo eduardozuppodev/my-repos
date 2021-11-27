@@ -10,6 +10,7 @@ export default {
     secondary: '#@f1f8fa',
     title: '#313131',
     tertiary: '#b6b6b6',
-    black: '#000000'
+    black: '#000000',
+    error: 'red'
   }
 };
