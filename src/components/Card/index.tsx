@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { If } from '../';
 
 import {
   Container,
@@ -7,8 +8,9 @@ import {
   GitIcon,
   Header,
   Footer,
-  FavIcon,
-  LinkStyled
+  FavIconUnderline,
+  LinkStyled,
+  FavIcon
 } from './styles';
 
 type Props = {
@@ -18,6 +20,8 @@ type Props = {
 };
 
 const Card: React.FC<Props> = ({ title, description, url }) => {
+  const [fav, setFav] = useState(false);
+
   return (
     <Container>
       <Header>
@@ -28,7 +32,12 @@ const Card: React.FC<Props> = ({ title, description, url }) => {
       </Header>
       <Description>{description}</Description>
       <Footer>
-        <FavIcon />
+        <If condition={!fav}>
+          <FavIconUnderline onClick={() => setFav(true)} />
+        </If>
+        <If condition={!!fav}>
+          <FavIcon onClick={() => setFav(false)} />
+        </If>
       </Footer>
     </Container>
   );
