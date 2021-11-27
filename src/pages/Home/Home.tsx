@@ -1,11 +1,12 @@
-
 import React from 'react';
 
 import { Container } from './styles';
 
-export const Header: React.FC = () => {
+const Home: React.FC = () => {
   return (
       <Container>
       </Container>
   );
 };
+
+export default Home;
