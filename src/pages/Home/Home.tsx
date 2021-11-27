@@ -1,11 +1,23 @@
 import React from 'react';
-
-import { Container } from './styles';
+import { Header, Card } from '../../components';
+import { Container, Repos } from './styles';
 
 const Home: React.FC = () => {
   return (
-      <Container>
-      </Container>
+    <Container>
+      <Header title="MyRepos" />
+      <Repos>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </Repos>
+    </Container>
   );
 };
 
