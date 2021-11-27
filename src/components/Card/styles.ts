@@ -13,6 +13,10 @@ export const Container = styled.div`
   box-shadow: 0px 0px 5px 0.2px #f1f8fa;
 
   padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 `;
 
 export const Title = styled.span`

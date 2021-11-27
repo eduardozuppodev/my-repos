@@ -10,18 +10,19 @@ import {
   FavIcon
 } from './styles';
 
-const Card: React.FC = () => {
+type Props = {
+  title: string;
+  description: string;
+};
+
+const Card: React.FC<Props> = ({ title, description }) => {
   return (
     <Container>
       <Header>
-        <Title>safestore-koob</Title>
+        <Title>{title}</Title>
         <GitIcon />
       </Header>
-      <Description>
-        Teste de Contratação - Koob - Aplicativo para ajudar a gerenciar o
-        cadastro e acompanhamento de produtos. Cadastre seus produtos com essa
-        aplicação e melhore ainda mais sua Conveniência.
-      </Description>
+      <Description>{description}</Description>
       <Footer>
         <FavIcon />
       </Footer>
