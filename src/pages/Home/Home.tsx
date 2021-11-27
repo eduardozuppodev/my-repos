@@ -17,7 +17,12 @@ const Home: React.FC = () => {
       <Header title="MyRepos" />
       <Repos>
         {repos.map((repo: ReposType, id: number) => (
-          <Card key={id} title={repo.name} description={repo.description} />
+          <Card
+            key={id}
+            title={repo.name}
+            description={repo.description}
+            url={repo.html_url}
+          />
         ))}
         <Credits>Desenvolvido por Eduardo Zuppo</Credits>
       </Repos>

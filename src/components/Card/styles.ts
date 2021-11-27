@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 import { colors } from '../../themes';
 import { GitHub, Favorite, FavoriteBorderOutlined } from '@material-ui/icons';
+import { Link } from '@material-ui/core';
+import { pxToRem } from '../../utils/helpers';
 
 export const Container = styled.div`
   margin: 10px 0;
 
-  width: 500px;
-  height: 140px;
+  width: ${pxToRem(450)};
   background: ${colors.header.title};
 
   -webkit-box-shadow: 0px 0px 2px -10px ${colors.body.black};
@@ -56,4 +57,13 @@ export const FavIcon = styled(FavoriteBorderOutlined).attrs({
   margin-top: 10px;
   cursor: pointer;
   color: 'red';
+`;
+
+export const LinkStyled = styled(Link).attrs({
+  underline: 'none'
+})`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 `;

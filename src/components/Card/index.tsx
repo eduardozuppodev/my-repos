@@ -7,20 +7,24 @@ import {
   GitIcon,
   Header,
   Footer,
-  FavIcon
+  FavIcon,
+  LinkStyled
 } from './styles';
 
 type Props = {
   title: string;
   description: string;
+  url: string;
 };
 
-const Card: React.FC<Props> = ({ title, description }) => {
+const Card: React.FC<Props> = ({ title, description, url }) => {
   return (
     <Container>
       <Header>
-        <Title>{title}</Title>
-        <GitIcon />
+        <LinkStyled href={url}>
+          <Title>{title}</Title>
+          <GitIcon />
+        </LinkStyled>
       </Header>
       <Description>{description}</Description>
       <Footer>
