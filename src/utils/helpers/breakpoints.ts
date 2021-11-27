@@ -12,7 +12,7 @@ const breakpoints = {
 
 export const inMobile = (
   style = ''
-) => `@media screen and (max-width: ${breakpoints.tablet}) {
+) => `@media screen and (max-width: ${breakpoints.mobile}) {
   ${style}
 }`;
 
