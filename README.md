@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Edesoft" height="80" title="Edesoft" src="" />
+  <img alt="Edesoft" height="80" title="Edesoft" src="https://user-images.githubusercontent.com/69389822/143683334-d87fdec9-189b-4532-a3bd-c2fcf123a285.png" />
   <br/>
   <span>Aplicação Front-End da MyRepos - Edesoft</span>
 </h1>
