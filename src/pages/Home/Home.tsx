@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Header, Card } from '../../components';
 import api from '../../services/api';
-import { Container, Repos, Credits } from './styles';
+import { Container, Repos, Credits, LinkStyled } from './styles';
 
 const Home: React.FC = () => {
   const [repos, setRepos] = useState([]);
@@ -24,7 +24,9 @@ const Home: React.FC = () => {
             url={repo.html_url}
           />
         ))}
-        <Credits>Desenvolvido por Eduardo Zuppo</Credits>
+        <LinkStyled href={'https://github.com/eduardozuppodev'}>
+          <Credits>Desenvolvido por Eduardo Zuppo</Credits>
+        </LinkStyled>
       </Repos>
     </Container>
   );
