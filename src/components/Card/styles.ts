@@ -1,16 +1,16 @@
 import styled from 'styled-components';
 import { colors } from '../../themes';
-import { GitHub, Favorite } from '@material-ui/icons';
+import { GitHub, Favorite, FavoriteBorderOutlined } from '@material-ui/icons';
 
 export const Container = styled.div`
   margin: 10px 0;
 
   width: 500px;
   height: 140px;
-  background: #fff;
+  background: ${colors.header.title};
 
-  -webkit-box-shadow: 0px 0px 15px -10px #000000;
-  box-shadow: 0px 0px 5px 0.2px #f1f8fa;
+  -webkit-box-shadow: 0px 0px 2px -10px ${colors.body.black};
+  box-shadow: 0px 0px 20px 0.2px ${colors.body.secondary};
 
   padding: 20px;
 
@@ -20,12 +20,12 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.span`
-  color: #313131;
+  color: ${colors.body.title};
   font-size: 14px;
 `;
 
 export const Description = styled.p`
-  color: #b6b6b6;
+  color: ${colors.body.tertiary};
   font-size: 10px;
   margin-top: 10px;
   text-align: justify;
@@ -49,7 +49,7 @@ export const GitIcon = styled(GitHub).attrs({
   fontSize: 'small'
 })``;
 
-export const FavIcon = styled(Favorite).attrs({
+export const FavIcon = styled(FavoriteBorderOutlined).attrs({
   fontSize: 'small',
   color: 'error'
 })`

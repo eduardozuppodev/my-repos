@@ -6,6 +6,10 @@ export default {
     title: '#fff'
   },
   body: {
-    background: '#f4f4f4'
+    background: '#f4f4f4',
+    secondary: '#@f1f8fa',
+    title: '#313131',
+    tertiary: '#b6b6b6',
+    black: '#000000'
   }
 };

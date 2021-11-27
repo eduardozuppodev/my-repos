@@ -4,7 +4,7 @@ import { colors } from '../../themes';
 export const Container = styled.div`
   width: 100%;
   height: 100%;
-  background: #f4f4f4;
+  background: ${colors.body.background};
 `;
 
 export const Repos = styled.div`
@@ -20,5 +20,5 @@ export const Repos = styled.div`
 export const Credits = styled.span`
   font-size: 10px;
   padding: 10px 0;
-  color: #b6b6b6;
+  color: ${colors.body.tertiary};
 `;
