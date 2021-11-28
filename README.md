@@ -1,12 +1,12 @@
 <h1 align="center">
   <img alt="Edesoft" height="80" title="Edesoft" src="https://user-images.githubusercontent.com/69389822/143683334-d87fdec9-189b-4532-a3bd-c2fcf123a285.png" />
   <br/>
-  <span>Aplicação Front-End da MyRepos - Edesoft</span>
+  <span>Aplicação Front-End da MyRepos</span>
 </h1>
 
 ## 💻 Projeto
 
-Teste de Contratação - Edesoft - Aplicativo para listar e favoritar repositórios.
+Aplicativo para listar e favoritar repositórios.
 
 ## :hammer_and_wrench: Features
 
